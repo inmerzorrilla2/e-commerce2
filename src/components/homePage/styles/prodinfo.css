@@ -1,0 +1,50 @@
+/* General Card Styling */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--background-color); /* Use background color variable */
+    color: var(--text-color);                /* Use text color variable */
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    margin-top: 15px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    word-wrap: break-word; 
+    color: var(--text-color); /* Ensure text matches background */
+  }
+  
+  .product-price {
+    color: var(--text-color); /* Ensure text matches background */
+  }
+  
+  /* Button Styling */
+  .product-actions button {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-actions button:hover {
+    filter: brightness(85%); /* Slightly darken on hover */
+  }
+  
